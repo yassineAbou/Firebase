@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">FirebaseOc</string>
+    <string name="main_activity_description">Simply chat with your mentors.</string>
+
+
+
+    <string name="login">Connexion</string>
+    <string name="chat_with_mentor">Chat with your mentor</string>
+
+    <!-- NOTIFICATION SERVICE -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="notification_title">"You have received a notification"</string>
+
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">192937229315748</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb192937229315748</string>
+
+
+
+
+    <!-- MAIN ACTIVITY -->
+    <string name="error_not_connected">You must log in!</string>
+    <string name="error_authentication_canceled">Authentication canceled&#8230;</string>
+    <string name="error_no_internet">No internet connection!</string>
+    <string name="error_unknown_error">An unknown error has occurred&#8230;</string>
+    <string name="connection_succeed">Authentication successful!</string>
+    <string name="button_login_text_logged">Display Profile</string>
+    <string name="button_login_text_not_logged">Connexion</string>
+
+    <!-- LOGIN ACTIVITY -->
+    <string name="toolbar_title_login_activity">Votre Profil</string>
+    <string name="text_input_username">Username</string>
+    <string name="text_view_email">Adresse email :</string>
+    <string name="button_update_account">Update username</string>
+    <string name="button_delete_account">Delete my account</string>
+    <string name="button_sign_out_account">Logout</string>
+    <string name="info_no_email_found">No email address</string>
+    <string name="info_no_username_found">Aucun nom d\'utilisateur</string>
+    <string name="popup_message_confirmation_delete_account">Are you sure you want to delete your account?</string>
+    <string name="popup_message_choice_yes">Yes !</string>
+    <string name="popup_message_choice_no">No</string>
+    <string name="check_box_is_mentor">Are you a mentor?</string>
+
+    <!-- MENTOR_CHAT ACTIVITY -->
+    <string name="toolbar_title_mentor_chat_activity">Chats de discussions</string>
+    <string name="text_input_title_mentor_chat_activity">Compose your message</string>
+    <string name="button_title_mentor_chat_activity">SEND</string>
+    <string name="text_view_mentor_chat_error">This discussion thread does not contain any messages for the moment.&#8230;</string>
+    <string name="popup_title_permission_files_access">This app needs permission to work.</string>
+    <string name="toast_title_no_image_chosen">No image chosen&#8230;</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinator_layout"
+    tools:context=".MainActivity">
+
+    <!-- MAIN CONTAINER -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- LEFT CONTAINER -->
+
+
+        <!-- RIGHT BUTTONS CONTAINER -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="388dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@mipmap/ic_launcher1" />
+
+            <!-- TITLE FIREBASE OC -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="@string/app_name"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold" />
+
+            <!-- DESCRIPTION FIREBASE OC -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="@string/main_activity_description"
+                android:textSize="@dimen/_13ssp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="470dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- BUTTON LOGIN -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_login"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/button_radius_primary_color"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/login"
+                android:textColor="#fff"
+                android:textSize="@dimen/_13ssp"
+                android:onClick="onClickLoginButton"/>
+
+            <!-- BUTTON CHAT -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_chat"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/button_radius_accent_color"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/chat_with_mentor"
+                android:textColor="#fff"
+                android:textSize="@dimen/_13ssp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
